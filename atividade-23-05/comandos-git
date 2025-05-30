@@ -1,0 +1,21 @@
+-- PRIMEIROS PASSOS GITHUB
+-- COMANDOS DE INICIALIZAÇÃO PARA ADICIONAR UM PROJETO A UM REPOSITÓRIO RECÉM CRIADO
+git config --global user.name <seu nome no github>
+git config --global user.email <seu email do github>
+
+git init
+git add .
+git commit -m "<comentário>"
+git remote add origin <link do repositorio>
+git branch -M main
+git push -u origin main
+
+-- ESSES SÃO OS COMANDOS PARA ADICIONAR
+
+
+-- AGORA, PARA ALTERAR 
+
+git status
+git add <sua pasta ou arquivo para colocar ou alterar no repositório do github>
+git commit -m "Descrição da alteração"
+git push origin main
